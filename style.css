@@ -17,16 +17,51 @@ main{
     background-position: center;
 }
 
-div{
+.main__div{
     height: 100%;
-    width: 40%;
+    width: 45%;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 p{
+    word-wrap: break-word;
     text-align: center;
     color: white;
+}
+
+.top_text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.litlep{
+    font-size: .8rem;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border-radius: 5px;
+    font-family: inherit;
     font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    display: block;
+    width: 80%;
+    padding: 10px 0px;
+    margin: 10px auto 0px auto;
+    text-align: center;
+}
+
+.blue__button{
+    border: 0;
+    background-color: rgb(0, 59, 253);
 }
